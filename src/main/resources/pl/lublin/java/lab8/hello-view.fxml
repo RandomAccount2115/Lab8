@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lublin.java.lab8.HelloController">
+   <children>
+      <Pane fx:id="pnArea" prefHeight="480.0" prefWidth="600.0" style="-fx-background-color: silver;">
+         <children>
+            <Label layoutX="14.0" layoutY="441.0" text="Y:" />
+            <Label layoutX="14.0" layoutY="408.0" text="X:" />
+            <Label fx:id="lbX" layoutX="42.0" layoutY="402.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbY" layoutX="42.0" layoutY="435.0" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
